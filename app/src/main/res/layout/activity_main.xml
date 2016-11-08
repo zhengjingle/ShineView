@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shineview.MainActivity">
+
+    <com.zjl.customview.ShineView
+        android:id="@+id/shineView1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="125dp"
+        android:src="@mipmap/ic_launcher" />
+    
+    <com.zjl.customview.ShineView
+        android:id="@+id/shineView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="75dp"
+        android:layout_marginLeft="75dp"
+        android:src="@mipmap/ic_launcher" />
+</FrameLayout>
